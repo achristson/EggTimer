@@ -92,15 +92,6 @@ fun NotificationManager.sendNotification(messageBody: String, applicationContext
     )
         .setPriority(NotificationCompat.PRIORITY_HIGH)
 
-    // TODO: Step 1.13 set content intent
-
-        // TODO: Step 2.1 add style to builder
-
-        // TODO: Step 2.3 add snooze action
-
-        // TODO: Step 2.5 set priority
-
-    // TODO: Step 1.4 call notify
     notify(NOTIFICATION_ID, builder.build())
 
 }
@@ -109,4 +100,3 @@ fun NotificationManager.cancelNotifications(){
     cancelAll()
 }
 
-// TODO: Step 1.14 Cancel all notifications
